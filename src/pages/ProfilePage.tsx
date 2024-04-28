@@ -9,7 +9,7 @@ export function Profile() {
   return (
     <div className="bg-background w-scren min-h-screen flex flex-col justify-start font-rubik">
       <Navbar />
-      <div className="w-full gap-2.5 items-start justify-center pt-6 flex flex-col lg:flex-row px-6 lg:px-[8rem]">
+      <div className="w-full gap-2.5 items-start justify-center py-6 flex flex-col lg:flex-row px-6 lg:px-[8rem]">
         <About />
         <div className="flex flex-col gap-8 w-full lg:w-fit">
           <Info />

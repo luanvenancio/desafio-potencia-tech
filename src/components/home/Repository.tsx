@@ -33,7 +33,7 @@ export function Repository() {
         <CardTitle className="font-normal text-lg text-grey1">
           Meus últimos repositórios
         </CardTitle>
-        <CardContent className="p-0 pt-5 first:rounded-lg">
+        <CardContent className="p-0 pt-5 [&>*:last-child]:rounded-b-lg [&>*:first-child]:rounded-t-lg">
           <RepositoryItem repoTitle="vandL/repo" description="Repositório" />
           <RepositoryItem repoTitle="vandL/residencia" description="OpeR" />
           <RepositoryItem
