@@ -12,7 +12,7 @@ export function Navbar() {
         className="w-screen xl:flex xl:items-center xl:justify-center bg-[#5C9ECF] h-fit z-50
         "
       >
-        <div className="w-full flex items-center justify-around py-2 xl:max-w-screen-xl px-6 lg:px-[8rem]">
+        <div className="w-full flex items-center justify-around py-2 xl:max-w-screen-2xl px-6 lg:px-[8rem]">
           <div className="flex justify-between xl:justify-start w-full">
             <a
               href="/"
