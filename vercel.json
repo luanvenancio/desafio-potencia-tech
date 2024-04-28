@@ -1,0 +1,20 @@
+{
+    "rewrites": [
+      {
+        "source": "/(.*)",
+        "destination": "/cadastro"
+      },
+      {
+        "source": "/login",
+        "destination": "/login"
+      },
+      {
+        "source": "/home",
+        "destination": "/home"
+      },
+      {
+        "source": "/cadastro",
+        "destination": "/cadastro"
+      }
+    ]
+  }
