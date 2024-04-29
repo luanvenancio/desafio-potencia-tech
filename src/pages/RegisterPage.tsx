@@ -12,7 +12,7 @@ import { Input } from "../components/ui/input";
 export default function Register() {
   return (
     <div className="w-full min-h-screen flex items-center justify-center bg-background font-rubik">
-      <div className="max-w-screen-xl w-[70rem] space-y-20 px-6 lg:px-0 py-4">
+      <div className="max-w-screen-xl w-[70rem] space-y-4 px-6 lg:px-0 py-4">
         <div className="flex w-full gap-8 lg:gap-2 lg:flex-row flex-col ">
           <Banner />
           <Card className="px-20 pt-5 pb-10 bg-[#F1F9FE]">
