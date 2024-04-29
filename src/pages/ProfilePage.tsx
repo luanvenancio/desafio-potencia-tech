@@ -7,7 +7,7 @@ import { Navbar } from "../components/Navbar";
 
 export function Profile() {
   return (
-    <div className="bg-background w-scren min-h-screen flex flex-col justify-start font-rubik">
+    <div className="bg-background w-scren min-h-screen flex flex-col justify-start font-rubik overflow-x-hidden">
       <Navbar />
       <div className="w-full gap-2.5 items-start justify-center py-6 flex flex-col lg:flex-row px-6 lg:px-[8rem]">
         <About />

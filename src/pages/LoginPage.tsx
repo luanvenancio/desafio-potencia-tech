@@ -15,13 +15,13 @@ function Login() {
       <div className="max-w-screen-xl w-[70rem] space-y-4 px-6 lg:px-0 py-4">
         <div className="flex w-full lg:gap-2 gap-8 lg:flex-row flex-col">
           <Banner />
-          <Card className="px-20 pb-10 bg-[#F1F9FE]">
-            <CardHeader className="px-10 pt-9 pb-5 w-full">
+          <Card className="px-20 pt-5 pb-10 bg-[#F1F9FE]">
+            <CardHeader className="px-10 pt-0 pb-5 w-full">
               <CardTitle className="text-center">
                 Acesse o <b>login</b> com seu e-mail
               </CardTitle>
             </CardHeader>
-            <CardContent className="space-y-3 h-fit w-full px-0">
+            <CardContent className="p-0 space-y-3 h-fit w-full px-0">
               <Input type="text" placeholder="Digite o seu e-mail" />
               <Input type="text" placeholder="Digite o sua senha" />
               <a
